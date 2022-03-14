@@ -1,8 +1,6 @@
 import { createGlobalStyle} from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-    
+const GlobalStyle = createGlobalStyle`    
     :root {
         --purple-primary: #564edf;
         --accent-pink: #f44e77;
@@ -25,10 +23,24 @@ const GlobalStyle = createGlobalStyle`
         color: var(--font-color);
         font-size: 1.2rem;
     }
+
+    /* font style */
+    .secondary_heading {
+        font-size: 3rem;
+        color:var(--purple-primary);
+    }
+    .white {
+        color:var(--font-color);
+    }
+    p {
+        color:var(--lavender-secondary);
+        line-height:1.8rem;
+    }
     a {
         text-decoration:none;
         color:inherit;
     }
+
     button {
         font-family:inherit;
         font-size:inherit;

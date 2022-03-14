@@ -16,7 +16,7 @@ export default function Navigation(){
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
             </ul>
-            <PrimaryButton text="Sign Up"/>
+            <PrimaryButton text={'Sign Up'}/>
         </Nav>
     )
 }
