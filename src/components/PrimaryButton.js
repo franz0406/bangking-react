@@ -13,6 +13,4 @@ const ButtonStyle = styled.button`
     padding:0.7rem 2rem;
     background-color: var(--accent-pink);
     border-radius:20px;
-    border:none;
-    outline:none;
 `;

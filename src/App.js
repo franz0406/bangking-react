@@ -1,10 +1,12 @@
-import styled from 'styled-components';
 // css style
+import styled from 'styled-components';
 import GlobalStyle from './styles/GlobalStyle';
 import {OuterLayout} from './styles/Layout';
 // component
 import Header from './components/Header';
-import CardSection from './components/CardSection';
+import Card from './components/Card';
+import Chart from './components/Chart';
+import Messaging from './components/Messaging';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Header />
       <Main>
         <OuterLayout>
-          <CardSection />
+          <Card />
+          <Chart />
+          <Messaging />
         </OuterLayout>
       </Main>
     </div>

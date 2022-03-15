@@ -34,6 +34,7 @@ const HeaderContentStyled = styled.div`
     grid-template-columns: repeat(2, 1fr);
     .text_content {
         margin-top:2rem;
+        word-break: break-all;
         h2 {
             font-size:4rem;
             font-weight:700;
@@ -48,7 +49,7 @@ const HeaderContentStyled = styled.div`
         display:flex;
         justify-content: center;
         .phone {
-            width:80%;
+            width:100%;
         }
         .ring_orange {
             position:absolute;

@@ -47,6 +47,8 @@ const GlobalStyle = createGlobalStyle`
         color:inherit;
         cursor: pointer;
         text-transform: uppercase;
+        border:none;
+        outline:none;
     }
 `;
 

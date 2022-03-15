@@ -18,7 +18,7 @@ export default function Header(){
 const HeaderSection = styled.header`
     width: 100%;
     height: 100vh;
-    padding:0 10rem;
+    padding:0 18rem;
     background-image: url(${backgroundImage});
     background-repeat: no-repeat;
     background-position-y: 100%;

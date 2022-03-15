@@ -2,7 +2,7 @@
 
 ### styled-components 전역 스타일 설정
 
-애플리케이션 레벨 스타일을 지원하기 위해 Styled Components는 `createGlobalStyle` 제공.
+전역 스타일을 지원하기 위해 Styled Components는 `createGlobalStyle` 제공.
 
 ```javascript
 // 파일이름 GlobalStyle.jsx

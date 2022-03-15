@@ -15,11 +15,9 @@ export default function SecondaryButton({text}){
 const ButtonStyle = styled.button`
     display: flex;
     align-items: center;
-    padding:0.7rem 2rem;
+    padding:1rem 2rem;
     background-color: var(--dark-primary);
     border-radius:20px;
-    border:none;
-    outline:none;
     img {
         padding-left:0.8rem;
     }
