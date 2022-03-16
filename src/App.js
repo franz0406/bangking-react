@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Card from './components/Card';
 import Chart from './components/Chart';
 import Messaging from './components/Messaging';
+import Payment from './components/Payment';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Card />
           <Chart />
           <Messaging />
+          <Payment />
         </OuterLayout>
       </Main>
     </div>

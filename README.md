@@ -5,7 +5,7 @@
 전역 스타일을 지원하기 위해 Styled Components는 `createGlobalStyle` 제공.
 
 ```javascript
-// 파일이름 GlobalStyle.jsx
+// 파일이름 GlobalStyle.js
 
 import { createGlobalStyle } from "styled-components";
 
