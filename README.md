@@ -39,3 +39,41 @@ function App() {
 
 export default App;
 ```
+
+### useState 활용 간단한 아코디언 메뉴 만들기.
+```javascript
+const [toggle, setToggle] = useState(false);
+const toggler = ()=>{
+    setToggle(!toggle);
+};
+<div>
+  <div className="toggle_title">
+    <h4>{title}</h4>
+    <button onClick={toggler}>내용보기!</button>
+  </div>
+  {toggle ? <p className='desc'>{desc}</p> : null}
+</div>
+```
+
+처음엔 내용이 숨겨져 있어야 하니 기본 상태값은 `false`  
+클릭 이벤트에 toggler 함수 실행 기본 상태값에 `!` 넣어 `boolean`의 반대값 으로 바꿈  
+
+### 3항 연산자
+
+```javascript
+// 조건문 ? 참 : 거짓
+
+let person = {
+  name: '황',
+  age: 80,
+  adult: null
+};
+// if 문
+if (person.age >= 20) {
+  person.adult = true;
+} else {
+  person.adult = false;
+}
+// 3항 연산자 
+person.adult = person.age >= 20 ? true : false;
+```
