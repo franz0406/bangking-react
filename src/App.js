@@ -8,6 +8,7 @@ import Card from './components/Card';
 import Chart from './components/Chart';
 import Messaging from './components/Messaging';
 import Payment from './components/Payment';
+import FAQ from './components/FAQ';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Chart />
           <Messaging />
           <Payment />
+          <FAQ />
         </OuterLayout>
       </Main>
     </div>
