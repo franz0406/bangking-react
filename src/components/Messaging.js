@@ -43,6 +43,9 @@ const MessaginSection = styled.section`
     .message_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        @media screen and (max-width: 990px){
+            grid-template-columns: repeat(1, 1fr);
+        }
         .items_left {
             position: relative;
             padding-right:2rem;

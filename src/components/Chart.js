@@ -39,6 +39,9 @@ const ChartSection = styled.section`
     .chart__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        @media screen and (max-width: 990px){
+            grid-template-columns: repeat(1, 1fr);
+        }
         .chart__left {
             .stats {
                 img {

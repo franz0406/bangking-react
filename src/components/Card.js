@@ -30,16 +30,28 @@ const CardSection = styled.section`
         display:grid;
         grid-template-columns:repeat(2, 1fr);
         grid-gap:2rem;
+        @media screen and (max-width: 840px){
+            grid-template-columns: repeat(1, 1fr);
+        }
         .card_left {
             p {
                 padding:1rem 0;
             }
+            h2 {
+            }
+            @media screen and (max-width: 840px){
+                text-align: center;
+            }
         }
         .card_right {
             display:flex;
-            justify-content:flex-end;
+            justify-content:center;
+            align-items: center;
             img {
                 width:100%;
+                @media screen and (max-width: 840px){
+                    width:70%;
+                }
             }
         }
     }

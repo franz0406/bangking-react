@@ -9,6 +9,7 @@ import Chart from './components/Chart';
 import Messaging from './components/Messaging';
 import Payment from './components/Payment';
 import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <FAQ />
         </OuterLayout>
       </Main>
+      <Footer />
     </div>
   );
 }
